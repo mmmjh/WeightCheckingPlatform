@@ -7,8 +7,8 @@
    <p>使用word2vec技术进行文本相似度计算，并绘制最终的pdf文件。</p>
     <p>已上传的代码可用于在已有数据下的处理工作，未上传语料库。可自行下载使用。</p>
    <h3>最终结果文件展示：</h3>
-  <img  src="show1.png" >
+  <img  src="./ima/show1.png" >
    
-  <img  src="show2.png" >
+  <img  src="./show2.png" >
    
    </div>
