@@ -9,6 +9,6 @@
    <h3>最终结果文件展示：</h3>
   <img  src="./ima/show1.png" >
    
-  <img  src="./show2.png" >
+  <img  src="./ima/show2.png" >
    
    </div>
