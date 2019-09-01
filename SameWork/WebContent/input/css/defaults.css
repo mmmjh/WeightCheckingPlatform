@@ -1,0 +1,160 @@
+
+/*
+	AUTHOR: Osvaldas Valutis, www.osvaldas.info
+*/
+
+
+
+/* general */
+
+*,
+h1, /* see normalize.css */
+figure /* see normalize.css */
+{
+	font-size: 100%;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	vertical-align: baseline;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+/* box sizing */
+
+*,
+*::before,
+*::after,
+input[type='search'] /* see normalize.css */
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+/* font smoothing */
+
+*, *::before, *::after
+{
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/* main scrollbar */
+
+html
+{
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+
+
+/* killing 300ms touch delay */
+
+html
+{
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+}
+
+
+
+/* svg */
+
+svg
+{
+	fill: currentColor;
+	vertical-align: middle;
+	pointer-events: none;
+}
+
+
+
+/* list */
+
+ul,
+ol
+{
+	list-style: none;
+}
+
+
+
+/* text */
+
+em
+{
+	font-style: italic;
+}
+
+b
+{
+	font-weight: inherit;
+}
+
+i
+{
+	font-style: inherit;
+}
+
+ins
+{
+	text-decoration: none;
+}
+
+
+
+/* form */
+
+input,
+textarea,
+select
+{
+	border-radius: 0;
+	border: none;
+	outline: none;
+}
+
+select:-moz-focusring 
+{
+    text-shadow: 0 0 0 #000;
+	color: transparent;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='search'],
+input[type='tel'],
+input[type='url'],
+textarea,
+select
+{
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+{
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input::-ms-reveal	{ display: none; }
+input::-ms-clear	{ display: none; }
+
+button,
+input[type='submit']
+{
+	border: none;
+	background-color: transparent;
+}

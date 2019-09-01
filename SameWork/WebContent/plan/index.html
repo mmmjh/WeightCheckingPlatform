@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+    <head>
+
+        <title>Agency - Home</title>
+
+        <!-- meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- scripts -->
+        <script type="text/javascript" src="assets/js/modernizr.custom.97074.js"></script>
+
+    </head>
+
+    <body>
+
+        <div id="home-page">
+
+
+
+            <!-- header start -->
+            <header id="header" class="header-wrapper home-parallax home-fade" style="height:867px">
+                <div class="header-overlay"></div>
+                <div class="header-wrapper-inner">
+                    <div class="container">
+
+                        <div class="welcome-speech">
+                            <h1>热词一键知道</h1>
+                            <p style="font-family:楷体;font-size:4ex">这里有最新的热词情报！你，还不来吗？！</p>
+                            <a href="home.jsp" class="btn btn-white" style="margin-top:-80px">
+                                进入热词的世界
+                            </a>
+                        </div><!-- /.intro -->
+                        
+                    </div><!-- /.container -->
+
+                </div><!-- /.header-wrapper-inner -->
+            </header>
+            <!-- /#header -->
+
+            <div class="main-content">
+
+           
+
+        <script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.hoverdir.js"></script>
+
+
+        <!-- script for portfolio section using hoverdirection -->
+        <script type="text/javascript">
+            $(function() {
+
+                $('.portfolio-item > .item-image').each( function() { $(this).hoverdir({
+                    hoverDelay : 75
+                }); } );
+
+            });
+        </script>
+
+
+        <!-- script for twitter-feed using owl carousel-->
+        <script type="text/javascript">
+            $(document).ready(function() {
+ 
+                $("#twit").owlCarousel({
+                 
+                    navigation : true, // Show next and prev buttons
+                    slideSpeed : 100,
+                    paginationSpeed : 400,
+                    navigationText : false,
+                    singleItem: true,
+                    autoPlay: true,
+                    pagination: false
+                });
+ 
+            });
+        </script>
+
+
+        <!-- script for testimonial section using owl carousel -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+ 
+                $("#client-speech").owlCarousel({
+                 
+                    autoPlay: 5000, //Set AutoPlay to 3 seconds
+                    stopOnHover: true,
+                    singleItem:true
+                });
+ 
+            });
+        </script>
+
+
+    </body>
+</html>
